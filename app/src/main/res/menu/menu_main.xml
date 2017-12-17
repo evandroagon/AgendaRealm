@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="br.edu.ifspsaocarlos.agenda.activity.MainActivity">
+    <item
+        android:id="@+id/pesqContato"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="50"
+        android:title="@string/nome_do_contato"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+      <item
+        android:id="@+id/filtraFavorito"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_star_yellow_24dp"
+        android:title="@string/filtrar_favoritos" />
+    <item
+        android:id="@+id/filtraNaoFavoritos"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:title="@string/filatrar_n_o_favoritos" />
+    <item
+        android:id="@+id/removerFiltros"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_done"
+        android:title="@string/remover_filtros" />
+
+    <!--app:showAsAction="always" />    -->
+</menu>
+
